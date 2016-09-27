@@ -2,7 +2,7 @@
 # This script calculates lenght of each sequence in a
 # fasta file.
 # How to run this script:
-# gawk -f seq_len_dist.gawk sample.fa
+# gawk -f get_seq_len_fasta.gawk sample.fa
 
 BEGIN {
     n=0 # stores the number of sequences
