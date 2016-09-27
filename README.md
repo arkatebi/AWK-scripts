@@ -1,5 +1,5 @@
 <a name="title" />
-## Some gawk scripts for file processing 
+## Some AWK scripts for file processing 
 
 
  
