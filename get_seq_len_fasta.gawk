@@ -12,7 +12,9 @@ BEGIN {
     if (substr($0,1,1)==">"){ # check for fasta sequence marker
        n++
        protName[n]=substr($1,2,length($1)) # save the protein name
-       if (n>1){ # save the length before re-initializing the length variable
+       if (n>1){ 
+       # save the length before re-initializing the length 
+       # variable for the next sequence
           protLen[protName[n-1]]=len
        }
        len=0 # re-initialize length variable for the next sequence
