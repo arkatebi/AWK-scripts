@@ -22,7 +22,7 @@ BEGIN {
           s=len
        }
        sum=sum+len
-       len=0 # re-initialize lenght variable for the next sequence
+       len=0 # re-initialize length variable for the next sequence
     }
     else { # continuation of the same sequence to the next line
       len = len + length($0)
