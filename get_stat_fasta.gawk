@@ -2,7 +2,7 @@
 # This script calculates the minimum, maximum, and 
 # average length of the sequences in a fasta file
 # How to run this script: 
-# gawk -f get_stat-fasta-len.gawk sample.fa
+# gawk -f get_stat_fasta.gawk sample.fa
 
 BEGIN {
     n=0 # stores the number of sequences
