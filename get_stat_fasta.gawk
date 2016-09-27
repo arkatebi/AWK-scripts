@@ -36,7 +36,7 @@ END {
     if (len<s){ # consider the length of the last sequence
        s=len
     }
-   sum=sum+len
+   sum=sum+len # consider the length of the last sequence
    printf("# of sequences: %d\n", n)
    printf("Minimum length: %d\n", s)
    printf("Maximum length: %d\n", m)
