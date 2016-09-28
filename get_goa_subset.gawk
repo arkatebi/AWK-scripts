@@ -3,7 +3,7 @@
 # gawk -f get_goa_subset.gawk sample.proteins sample.yeast.goa 
 # the script will compare the column 1 of sample.proteins with 
 # the column 2 of sample.yeast.goa. If there is a match, it will 
-# output the corresponding line from 2nd file.
+# output the corresponding line from the 2nd file.
 
 BEGIN {
     FS="\t";
