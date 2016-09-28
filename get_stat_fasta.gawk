@@ -12,8 +12,7 @@ BEGIN {
     s=1000000 # stores shortest length
 }
 {
-    tmp = substr($0,0,1)
-    if (tmp==">"){ # fasta marker
+    if (substr($0,1,1)==">"){ # fasta marker
        n++
        if (len>m){
           m=len
