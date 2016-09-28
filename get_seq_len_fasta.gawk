@@ -1,6 +1,5 @@
 #!/bin/awk -f
-# This script calculates length of each sequence in a
-# fasta file.
+# This script calculates length of each sequence in a fasta file.
 # How to run this script:
 # gawk -f get_seq_len_fasta.gawk sample.fa
 
