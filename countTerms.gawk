@@ -2,11 +2,7 @@
 # This script counts the number of total terms in a file
 # where comma separated terms are stored in each line.
 # gawk -f countTerms.gawk termFile.txt 
-BEGIN {
-   FS=",";
-   count=0
-}
-
+BEGIN {FS=","}
 {
    split($0,a,FS)
    for (i in a) {
@@ -15,9 +11,6 @@ BEGIN {
 }
 
 END { 
-  #for (gt in terms){ 
-  #   print gt
-  #}
   n=alen(terms) 
   print(n)
 }
